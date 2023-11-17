@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Make up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navegacion"> 
+        <li> <img src="Imagenes/logo.jpg" height="150px" alt=""></li>
+        <li> <a href="">Inicio</a></li>
+        <li> <a href="">Productos</a></li>
+        <li> <a href="">Preguntas Frecuentes</a></li>
+        <li> <a href="">Envios</a></li>
+        <li> <a href="">Carrito</a></li>
+      </ul> 
+    </nav>
+  </header>
+  <section>
+    <div class="boton1">
+    <form action="#" method="post" target="_blank">
+      <p> Encontrá eso que tanto querés <input type="search" name="busquedamodelos" list="listamodelos">
+        <input type="submit" value="Buscar"></p>
+    </form>
+    <datalist id="listamodelos">
+      <option value="Delineador">
+      <option value="Brochas">
+      <option value="Gloss">
+    </datalist>
+  </div>
+  </section>
+  <br>
+  <main>
+    <marquee><h1> Todo lo que te gusta y buscas, lo encontrás acá...</h1></marquee> 
+    <br>
+    <br>
+    <section>
+      <div class="flecha1">
+        <details>
+            <summary>
+              <b><u>Abre para encontrar los tips de una buena limpieza facial</b></u>
+            </summary>
+            <p>↪ Desmaquillar el rostro y los ojos con un producto adecuado o un bálsamo.</p>
+            <p>↪ Limpiar la piel con una loción, un jabón o una limpiadora, realizando movimientos circulares.</p>
+            <p>↪ Exfoliar la piel para eliminar las células muertas y las impurezas.</p>
+            <p>↪ Aplicar un tónico facial para equilibrar el pH de la piel y cerrar los poros.</p>
+            <p>↪ Aplicar un sérum para aportar nutrientes y activos a la piel.</p>
+            <p>↪ Aplicar una mascarilla calmante o hidratante según el tipo de piel, y dejar actuar el tiempo indicado.</p>
+            <p>↪ Aplicar un contorno de ojos con suaves toques</p>
+            <p>↪ Aplicar una crema hidratante para nutrir y proteger la piel.</p>
+            <p>↪ Aplicar un protector solar para prevenir el daño solar.</p>
+        </details>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div class="carrusel">
+        <img src="Imagenes/MascDragon.jpg" alt="">
+        <img src="Imagenes/MascTiger.jpg" alt="">
+        <img src="Imagenes/MascPanda.jpg" alt="">
+      </div>
+    </section>
+    <section>
+     <h2 class="tituloPrincipal"> <u>Nuestros Productos</u> </h2>
+    <br>
+    <div class="contenedorDeProductos">
+      <div class="producto">
+        <img class="productoImagen" src="Imagenes/delineador.jpg" alt="">
+        <div class="productoDetalles">
+          <h3 class="productoTitulo">Delineadores de Colores</h3>
+          <p class="productoprecio">$1500</p>
+          <button class=productoAgregar>Agregar</button>
+        </div>
+      </div>
+      <div class="producto">
+        <img class="productoImagen" src="Imagenes/GLOOSGLITTER.jpg" alt="">
+        <div class="productoDetalles">
+          <h3 class="productoTitulo">Glitter Gloss</h3>
+          <p class="productoprecio">$2000</p>
+          <button class=productoAgregar>Agregar</button>
+        </div>
+      </div>
+      <div class="producto">
+        <img class="productoImagen" src="Imagenes/SETBROCHAS.jpg" alt="">
+        <div class="productoDetalles">
+          <h3 class="productoTitulo">Set de Brochas</h3>
+          <p class="productoprecio">$8000</p>
+          <button class=productoAgregar>Agregar</button>
+        </div>
+      </div>
+      <div class="producto">
+        <img class="productoImagen" src="Imagenes/paletamaquillaje.jpg" alt="">
+        <div class="productoDetalles">
+          <h3 class="productoTitulo">Paleta de Maquillaje</h3>
+          <p class="productoprecio">$14500</p>
+          <button class=productoAgregar>Agregar</button>
+        </div>
+      </div> 
+    </section>
+    <br> 
+  </main> 
+  <br>
+  <fieldset>
+   <div class="formu1">
+     <form action="formu1" method="get">
+      <legend>Completá el Formulario y mantenete informado de nuestras promociones</legend>
+       <p><label for="Nombre">Nombre:</label>
+       <input type="text" id="name" name="user_name" /></p>
+       <p><label for="Apellido">Apellido:</label>
+       <input type="text" id="apellido" name="apellido" /></p>
+       <p><label for="Email">Email:</label>
+       <input type="text" id="email" name="email" /></p> 
+       <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+       <p>Sexo:
+       <input type="radio" name="hm" value="h"> Femenino
+       <input type="radio" name="hm" value="m"> Masculino
+       </p>
+       <p>
+       <input type="submit" value="Enviar">
+       <input type="reset" value="Borrar">
+       </p>
+     </form>
+   </div>
+  </fieldset>
+  <br>
+  <footer>
+     <p>Encontrate con tu belleza ❣ </p>
+     <p><a href=”#”>Contactate con Nosotros!</a></p>
+     <p>Puedes seguirnos en nuestro <a href="#">Instagram</a> o <a href="#">Facebook</a></p>
+     <div class= mapa> 
+      <iframe
+        id="inlineFrameExample"
+         title="Inline Frame Example"
+         width="300"
+         height="200"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26287.749726995455!2d-58.50975945910911!3d-34.55434747016546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ecec1f5741%3A0x42502844d305770b!2sSaavedra%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1699928753294!5m2!1ses-419!2sar">
+      </iframe>
+     </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

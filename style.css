@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Black+Ops+One&family=Bungee+Shade&family=Bungee+Spice&family=Dancing+Script&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&family=Space+Grotesk&display=swap');
+*   { margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+Body    {
+    background-color:rgb(212, 185, 205); 
+}
+
+.navegacion     {display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 2.5rem;
+    background-color: rgb(170, 143, 188);
+    font-family: 'Shadows Into Light';
+}
+
+.navegacion img    {float: left;
+}
+
+nav a:hover     {color: yellowgreen}
+
+
+.flecha1    {font-family: 'Indie Flower';
+    font-size: 130%;
+    color: rgb(63, 4, 78);
+     }
+
+.carrusel   {
+   display:flex;
+   width: 600px;
+   height: 430px;
+}    
+
+.carrusel img       {width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.carrusel img:hover     {
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.tituloPrincipal    {
+    color: rgba(61, 3, 58, 0.918);
+margin-bottom: 2rem;
+text-align: center;
+font-family: 'Space Grotesk';
+}
+
+.contenedorDeProductos  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.productoImagen     {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.productoDetalles   {
+    background-color: rgb(221, 120, 153);
+    color: rgb(37, 8, 66); 
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.productoTitulo     {
+    font-size: 1.2rem;
+}
+
+.productoAgregar    {
+    border: 0;
+    background-color: grey;
+    color: rgb(53, 4, 53);
+    padding: .4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+}   
+
+.productoAgregar:hover    {
+    background-color: rgb(162, 0, 255);
+    color: rgb(3, 3, 5);
+}
+
+.boton1     {
+    font-family: 'Space Grotesk';
+    color: rgb(56, 5, 56);
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+h1  {font-family: 'Shadows Into Light';
+font-size: 200%;
+color: rgba(75, 2, 75, 0.664);
+}
+
+.formu1    {text-align: left;
+color: blueviolet;
+font-family: 'Bungee Shade';
+}
+
+footer  {text-align: right;
+    color: rgb(235, 10, 59);
+    font-family: 'Indie Flower';
+    font-size: 130%;
+}
+
+iframe {
+    border: 1px solid rgb(204, 4, 4);
+}
+
+@media (max-width:998px)    {
+
+    body        {background-color: rgb(245, 136, 172);  }
+    .navegacion         {flex-direction: column}
+    }
+
+@media (max-width:768px)    {
+
+    body        {background-color: rgb(245, 216, 136)   }
+    .navegacion         {flex-direction: column}
+    }
+
+@media (max-width:480px)    {
+
+    body        {background-color: rgb(173, 55, 8);
+    }
+    .navegacion         {flex-direction: column}
+    }
