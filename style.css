@@ -108,6 +108,11 @@ font-size: 200%;
 color: rgba(75, 2, 75, 0.664);
 }
 
+h1  {font-family: 'Shadows Into Light';
+    font-size: 200%;
+    color: rgba(75, 23, 2, 0.664);
+    }
+
 .formu1    {text-align: left;
 color: blueviolet;
 font-family: 'Bungee Shade';
